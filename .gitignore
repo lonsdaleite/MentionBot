@@ -1,0 +1,5 @@
+db_recreate.py
+user_config.py
+mention_bot.log
+users.db
+__pycache__
