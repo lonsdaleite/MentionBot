@@ -32,7 +32,6 @@ async def handle_all(message: types.Message, state: FSMContext):
     config.logger.debug(message_text)
 
 async def handle_add_user(message: types.Message, state: FSMContext):
-    config.logger.debug(message)
     bot_db.add_user(message.chat.id, message.from_user.id)
 
 def register_handlers_main(dp: Dispatcher):
