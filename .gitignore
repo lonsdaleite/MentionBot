@@ -1,5 +1,8 @@
 db_recreate.py
 user_config.py
+read_db_grep_log.sh
 mention_bot.log
 users.db
 __pycache__
+venv
+.idea

@@ -4,12 +4,14 @@ try:
 except ModuleNotFoundError:
     pass
 
+
 def set_value(user_var_name, default_value):
     if user_var_name in globals():
         user_value = globals()[user_var_name]
         if user_value is not None and (not isinstance(user_value, str) or user_value != ""):
             return user_value
     return default_value
+
 
 BOT_TG_TOKEN = set_value("BOT_TG_TOKEN", "")
 USERS_DB_PATH = set_value("USERS_DB_PATH", "./users.db")
