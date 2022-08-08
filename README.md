@@ -6,7 +6,7 @@ All users should write something to chat first, because the bot has to remember 
 
 Group privacy mode must be disabled for the bot.
 
-## Configuration:
+## Configuration
 Create `user_config.py` file and fill it. For example:
 ```
 DEBUG = False
